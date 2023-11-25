@@ -1,0 +1,353 @@
+/* Krs */
+body {
+  width: 100%;
+  overflow: hidden;
+  font-family: "Exo 2", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+
+}
+
+.IconContainer {
+  position: absolute;
+  bottom: 0vh;
+  left: 0.0vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.BaseCircle {
+
+  position: relative;
+  flex-direction: column;
+  width: 4vh !important;
+  height: 4vh !important;
+  float: left;
+  left: 90vh;
+  margin-right: 2mm;
+  border-radius: 50%;
+  bottom: 3.5vh;
+  background: rgb(35, 36, 39);
+  filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.555)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
+
+
+
+.fa-heart,
+.fa-shield-alt,
+.fa-pizza-slice,
+.fa-running,
+.fa-skull {
+  color: white;
+  text-shadow: 0 0 1vh rgba(255, 255, 255, 0.75);
+  position: absolute;
+  font-size: 1.6vh;
+
+  left: 1.2vh;
+  bottom: 1.2vh;
+}
+
+
+.fa-brain,
+.fa-headset {
+  color: white;
+  text-shadow: 0 0 1vh rgba(255, 255, 255, 0.75);
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1.1vh;
+  bottom: 1.2vh;
+}
+
+.fa-lungs {
+  color: white;
+  text-shadow: 0 0 1vh rgba(255, 255, 255, 0.75);
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1vh;
+  bottom: 1.3vh;
+}
+
+
+
+
+#VoiceIndicator {
+
+  font-size: 17px;
+  color: #ffffff;
+  text-shadow: 0 0 1vh rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+
+  position: inherit;
+  z-index: 1000;
+  left: 85vh;
+  margin-top: 4.5vh;
+  width: 3vh;
+  font-size: 1.8vh;
+  font-family: cursive;
+  text-align: center;
+}
+
+
+
+#hp-icon {
+
+  color: white;
+  text-shadow: 0 0 1vh rgba(255, 255, 255, 0.75);
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1.3vh;
+  bottom: 1.2vh;
+}
+
+#ThirstIcon {
+
+  color: white;
+  text-shadow: 0 0 1vh rgba(255, 255, 255, 0.75);
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1.2vh;
+  bottom: 1.2vh;
+}
+
+.fa-microphone {
+  color: white;
+  text-shadow: 0 0 1vh rgba(255, 255, 255, 0.75);
+  position: absolute;
+  font-size: 1.6vh;
+  left: 1.4vh;
+  bottom: 1.25vh;
+}
+
+#SpeedCircle {
+  width: 5vh !important;
+  height: 5vh !important;
+  position: absolute;
+  font-size: 5vh;
+  left: 50%;
+  /* Posiziona al centro orizzontalmente */
+  bottom: 2vh;
+  /* Posiziona in basso */
+  transform: translateX(-50%) rotate(-180deg);
+  /* Centra orizzontalmente e ruota */
+  background: rgba(27, 27, 27, 0);
+}
+
+#SpeedCircle p {
+  font-size: 17px;
+  color: #ffffff;
+  text-shadow: 0 0 1vh rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  transform: rotate(-180deg);
+  position: inherit;
+  z-index: 1000;
+  left: -70vh;
+  margin-top: 4.5vh;
+  width: 3vh;
+  font-size: 1.5vh;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  /* Centra il testo orizzontalmente */
+}
+
+#SpeedIndicator {
+  color: rgba(255, 255, 255, 0.582);
+  text-shadow: 0 0 1vh rgba(255, 255, 255, 0.678);
+  position: inherit;
+  z-index: 1000;
+  left: -75vh;
+  margin-top: 3.5vh;
+  width: 3vh;
+  font-size: 4.7vh;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  /* Centra il testo orizzontalmente */
+  transform: rotate(-180deg);
+}
+
+
+
+#CerchioCintura {
+  width: 3vh !important;
+  height: 3vh !important;
+  position: absolute;
+  left: 157.5vh;
+  bottom: 3vh;
+  background: rgba(27, 27, 27, 0);
+  transform: rotate(-180deg);
+}
+
+#CerchioCruise {
+  width: 3vh !important;
+  height: 3vh !important;
+  position: absolute;
+  left: 161.5vh;
+  bottom: 3vh;
+  background: rgba(27, 27, 27, 0);
+  transform: rotate(-180deg);
+}
+
+
+.fa-compress-alt {
+
+  color: rgb(255, 255, 255);
+ 
+  font-size: 1.5vh;
+  position: inherit;
+  left: 1vh;
+  bottom: 1vh;
+  transform: rotate(-180deg);
+}
+
+.fa-compress-alt2 {
+
+  color: rgb(208, 255, 0);
+ 
+  font-size: 1.5vh;
+  position: inherit;
+  left: 1vh;
+  bottom: 1vh;
+  transform: rotate(-180deg);
+}
+
+.fa-gauge-simple-high {
+
+  color: rgb(255, 255, 255);
+ 
+  font-size: 1.5vh;
+  position: inherit;
+  left: 1vh;
+  bottom: 1vh;
+  transform: rotate(-180deg);
+}
+
+.fa-gauge-simple-high {
+
+  color: rgb(208, 255, 0);
+  
+  font-size: 1.5vh;
+  position: inherit;
+  left: 1vh;
+  bottom: 1vh;
+  transform: rotate(-180deg);
+}
+
+
+#FuelCircle {
+  width: 3vh !important;
+  height: 3vh !important;
+  position: absolute;
+  left: 154.3vh;
+  bottom: 5.9vh;
+  background: rgb(35, 36, 39);
+  filter: drop-shadow(0 4px 3px rgba(22, 21, 21, 0.836)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  border-radius: 50%;
+  transform: rotate(-180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-gas-pump {
+  color: white;
+  /* text-shadow: 0 0 1vh rgba(255, 255, 255, 0.75); */
+  font-size: 1vh;
+  position: inherit;
+  transform: rotate(-180deg);
+}
+
+
+.fa-gas-pump2 {
+  color: rgb(177, 62, 62);
+  font-size: 1vh;
+  position: inherit;
+  left: 1vh;
+  bottom: 1vh;
+  transform: rotate(-180deg);
+}
+
+.flash {
+  -webkit-animation: flash 1s;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* body{
+  overflow-x: hidden;
+} */
+
+#cover {
+  position: absolute;
+  z-index: 0;
+  right: 0.0%;
+  top: 15.2%;
+  margin: -150px 0 0 -115px;
+}
+
+
+#IdIndicator {
+  background: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: none;
+ 
+}
+
+
+#IdIcon {
+
+  font-size: 18px;
+  /* margin-left: -57vh; */
+  color: #3de2be;
+  text-shadow: 0 0 1vh #3de2bebe;
+  transform: rotate(355deg);
+}
+
+#idKaros {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 1vh;
+  font-family: cursive;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 1vh rgba(255, 255, 255, 0.75);
+}
+
+
+/* .info { position: absolute; }
+.info.server { top: 45px; right: 26px; width: 170px; height: 170px; }
+.info.server #server img { max-width: 100%; opacity: 0.95; } */
+
+
+.logo {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+
+
+
+
+
+/* Krs */
